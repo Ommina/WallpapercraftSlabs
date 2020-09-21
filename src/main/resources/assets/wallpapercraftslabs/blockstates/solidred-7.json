@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/solidred-7" },
+        "type=top": { "model": "wallpapercraftslabs:block/solidred-7_top" },
+        "type=double": { "model": "wallpapercraft:block/solidred-7" }
+    }
+}
+

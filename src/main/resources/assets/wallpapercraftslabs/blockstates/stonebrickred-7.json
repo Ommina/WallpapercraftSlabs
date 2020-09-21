@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/stonebrickred-7" },
+        "type=top": { "model": "wallpapercraftslabs:block/stonebrickred-7_top" },
+        "type=double": { "model": "wallpapercraft:block/stonebrickred-7" }
+    }
+}
+

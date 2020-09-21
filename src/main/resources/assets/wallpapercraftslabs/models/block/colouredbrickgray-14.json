@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wallpapercraft:block/colouredbrick/colouredbrickgray-14",
+        "top": "wallpapercraft:block/colouredbrick/colouredbrickgray-14",
+        "side": "wallpapercraft:block/colouredbrick/colouredbrickgray-14"
+    }
+}
+

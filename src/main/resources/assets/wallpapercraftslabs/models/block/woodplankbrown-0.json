@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wallpapercraft:block/woodplank/woodplankbrown-0",
+        "top": "wallpapercraft:block/woodplank/woodplankbrown-0",
+        "side": "wallpapercraft:block/woodplank/woodplankbrown-0"
+    }
+}
+

@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/brickblue-9" },
+        "type=top": { "model": "wallpapercraftslabs:block/brickblue-9_top" },
+        "type=double": { "model": "wallpapercraft:block/brickblue-9" }
+    }
+}
+

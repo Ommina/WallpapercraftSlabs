@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/claygray-4" },
+        "type=top": { "model": "wallpapercraftslabs:block/claygray-4_top" },
+        "type=double": { "model": "wallpapercraft:block/claygray-4" }
+    }
+}
+

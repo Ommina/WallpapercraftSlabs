@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wallpapercraft:block/clay/claypurple-2",
+        "top": "wallpapercraft:block/clay/claypurple-2",
+        "side": "wallpapercraft:block/clay/claypurple-2"
+    }
+}
+

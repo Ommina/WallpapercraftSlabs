@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wallpapercraft:block/checkeredwool/checkeredwoolyellow-7",
+        "top": "wallpapercraft:block/checkeredwool/checkeredwoolyellow-7",
+        "side": "wallpapercraft:block/checkeredwool/checkeredwoolyellow-7"
+    }
+}
+

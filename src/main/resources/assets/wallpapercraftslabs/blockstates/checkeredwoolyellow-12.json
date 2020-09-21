@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/checkeredwoolyellow-12" },
+        "type=top": { "model": "wallpapercraftslabs:block/checkeredwoolyellow-12_top" },
+        "type=double": { "model": "wallpapercraft:block/checkeredwoolyellow-12" }
+    }
+}
+

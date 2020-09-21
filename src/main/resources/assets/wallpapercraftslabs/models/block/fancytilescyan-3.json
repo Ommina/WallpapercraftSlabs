@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wallpapercraft:block/fancytiles/fancytilescyan-3",
+        "top": "wallpapercraft:block/fancytiles/fancytilescyan-3",
+        "side": "wallpapercraft:block/fancytiles/fancytilescyan-3"
+    }
+}
+

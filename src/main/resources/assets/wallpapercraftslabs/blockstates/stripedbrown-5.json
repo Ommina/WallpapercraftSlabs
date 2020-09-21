@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/stripedbrown-5" },
+        "type=top": { "model": "wallpapercraftslabs:block/stripedbrown-5_top" },
+        "type=double": { "model": "wallpapercraft:block/stripedbrown-5" }
+    }
+}
+

@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wallpapercraft:block/solid/solidgray-6",
+        "top": "wallpapercraft:block/solid/solidgray-6",
+        "side": "wallpapercraft:block/solid/solidgray-6"
+    }
+}
+

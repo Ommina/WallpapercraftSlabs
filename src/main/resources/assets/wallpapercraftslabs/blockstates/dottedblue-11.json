@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/dottedblue-11" },
+        "type=top": { "model": "wallpapercraftslabs:block/dottedblue-11_top" },
+        "type=double": { "model": "wallpapercraft:block/dottedblue-11" }
+    }
+}
+

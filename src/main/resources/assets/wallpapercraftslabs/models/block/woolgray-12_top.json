@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "wallpapercraft:block/wool/woolgray-12",
+        "top": "wallpapercraft:block/wool/woolgray-12",
+        "side": "wallpapercraft:block/wool/woolgray-12"
+    }
+}
+

@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/damaskcyan-2" },
+        "type=top": { "model": "wallpapercraftslabs:block/damaskcyan-2_top" },
+        "type=double": { "model": "wallpapercraft:block/damaskcyan-2" }
+    }
+}
+

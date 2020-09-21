@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wallpapercraft:block/floral/floralyellow-3",
+        "top": "wallpapercraft:block/floral/floralyellow-3",
+        "side": "wallpapercraft:block/floral/floralyellow-3"
+    }
+}
+

@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/colouredbrickyellow-2" },
+        "type=top": { "model": "wallpapercraftslabs:block/colouredbrickyellow-2_top" },
+        "type=double": { "model": "wallpapercraft:block/colouredbrickyellow-2" }
+    }
+}
+

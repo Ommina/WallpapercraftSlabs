@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "wallpapercraft:block/wool/woolgreen-2",
+        "top": "wallpapercraft:block/wool/woolgreen-2",
+        "side": "wallpapercraft:block/wool/woolgreen-2"
+    }
+}
+

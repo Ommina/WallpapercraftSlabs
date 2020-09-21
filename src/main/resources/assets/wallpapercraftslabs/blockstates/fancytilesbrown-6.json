@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/fancytilesbrown-6" },
+        "type=top": { "model": "wallpapercraftslabs:block/fancytilesbrown-6_top" },
+        "type=double": { "model": "wallpapercraft:block/fancytilesbrown-6" }
+    }
+}
+

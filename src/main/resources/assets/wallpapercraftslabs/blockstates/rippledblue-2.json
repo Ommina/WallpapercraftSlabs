@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/rippledblue-2" },
+        "type=top": { "model": "wallpapercraftslabs:block/rippledblue-2_top" },
+        "type=double": { "model": "wallpapercraft:block/rippledblue-2" }
+    }
+}
+

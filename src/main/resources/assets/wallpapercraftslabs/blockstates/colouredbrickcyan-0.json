@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/colouredbrickcyan-0" },
+        "type=top": { "model": "wallpapercraftslabs:block/colouredbrickcyan-0_top" },
+        "type=double": { "model": "wallpapercraft:block/colouredbrickcyan-0" }
+    }
+}
+

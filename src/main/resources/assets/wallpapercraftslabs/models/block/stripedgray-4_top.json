@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab_top",
+    "textures": {
+        "bottom": "wallpapercraft:block/striped/stripedgray-4",
+        "top": "wallpapercraft:block/striped/stripedgray-4",
+        "side": "wallpapercraft:block/striped/stripedgray-4"
+    }
+}
+

@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wallpapercraft:block/rippled/rippledcyan-0",
+        "top": "wallpapercraft:block/rippled/rippledcyan-0",
+        "side": "wallpapercraft:block/rippled/rippledcyan-0"
+    }
+}
+

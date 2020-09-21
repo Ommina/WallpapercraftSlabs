@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wallpapercraft:block/dotted/dottedgray-11",
+        "top": "wallpapercraft:block/dotted/dottedgray-11",
+        "side": "wallpapercraft:block/dotted/dottedgray-11"
+    }
+}
+

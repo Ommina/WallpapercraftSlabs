@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/brickgray-2" },
+        "type=top": { "model": "wallpapercraftslabs:block/brickgray-2_top" },
+        "type=double": { "model": "wallpapercraft:block/brickgray-2" }
+    }
+}
+

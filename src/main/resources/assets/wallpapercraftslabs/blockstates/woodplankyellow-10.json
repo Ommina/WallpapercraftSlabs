@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/woodplankyellow-10" },
+        "type=top": { "model": "wallpapercraftslabs:block/woodplankyellow-10_top" },
+        "type=double": { "model": "wallpapercraft:block/woodplankyellow-10" }
+    }
+}
+

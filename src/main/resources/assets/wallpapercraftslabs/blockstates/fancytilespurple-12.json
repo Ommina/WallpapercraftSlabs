@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/fancytilespurple-12" },
+        "type=top": { "model": "wallpapercraftslabs:block/fancytilespurple-12_top" },
+        "type=double": { "model": "wallpapercraft:block/fancytilespurple-12" }
+    }
+}
+

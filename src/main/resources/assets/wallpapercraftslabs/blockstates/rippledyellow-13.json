@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/rippledyellow-13" },
+        "type=top": { "model": "wallpapercraftslabs:block/rippledyellow-13_top" },
+        "type=double": { "model": "wallpapercraft:block/rippledyellow-13" }
+    }
+}
+

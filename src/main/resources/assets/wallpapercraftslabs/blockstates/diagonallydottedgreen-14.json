@@ -1,0 +1,8 @@
+﻿{
+    "variants": {
+        "type=bottom": { "model": "wallpapercraftslabs:block/diagonallydottedgreen-14" },
+        "type=top": { "model": "wallpapercraftslabs:block/diagonallydottedgreen-14_top" },
+        "type=double": { "model": "wallpapercraft:block/diagonallydottedgreen-14" }
+    }
+}
+

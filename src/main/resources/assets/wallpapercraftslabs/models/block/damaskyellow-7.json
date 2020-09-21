@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wallpapercraft:block/damask/damaskyellow-7",
+        "top": "wallpapercraft:block/damask/damaskyellow-7",
+        "side": "wallpapercraft:block/damask/damaskyellow-7"
+    }
+}
+

@@ -1,0 +1,9 @@
+﻿{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "wallpapercraft:block/diagonallydotted/diagonallydottedblue-0",
+        "top": "wallpapercraft:block/diagonallydotted/diagonallydottedblue-0",
+        "side": "wallpapercraft:block/diagonallydotted/diagonallydottedblue-0"
+    }
+}
+
