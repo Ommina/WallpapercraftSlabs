@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "group": "wallpapercraft_slabs",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wallpapercraft:clayyellow-1"
+    }
+  },
+  "result": {
+    "item": "wallpapercraftslabs:clayyellow-1",
+    "count": 6
+  }
+}

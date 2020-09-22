@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "group": "wallpapercraft_slabs",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wallpapercraft:stonebrickred-0"
+    }
+  },
+  "result": {
+    "item": "wallpapercraftslabs:stonebrickred-0",
+    "count": 6
+  }
+}

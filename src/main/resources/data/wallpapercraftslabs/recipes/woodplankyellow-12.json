@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "group": "wallpapercraft_slabs",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wallpapercraft:woodplankyellow-12"
+    }
+  },
+  "result": {
+    "item": "wallpapercraftslabs:woodplankyellow-12",
+    "count": 6
+  }
+}

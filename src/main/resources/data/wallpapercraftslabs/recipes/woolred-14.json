@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "group": "wallpapercraft_slabs",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wallpapercraft:woolred-14"
+    }
+  },
+  "result": {
+    "item": "wallpapercraftslabs:woolred-14",
+    "count": 6
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "group": "wallpapercraft_slabs",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wallpapercraft:dottedgreen-9"
+    }
+  },
+  "result": {
+    "item": "wallpapercraftslabs:dottedgreen-9",
+    "count": 6
+  }
+}

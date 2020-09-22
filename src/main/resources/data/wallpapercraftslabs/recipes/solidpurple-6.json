@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "group": "wallpapercraft_slabs",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wallpapercraft:solidpurple-6"
+    }
+  },
+  "result": {
+    "item": "wallpapercraftslabs:solidpurple-6",
+    "count": 6
+  }
+}

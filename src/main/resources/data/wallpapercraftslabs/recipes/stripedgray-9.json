@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "group": "wallpapercraft_slabs",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wallpapercraft:stripedgray-9"
+    }
+  },
+  "result": {
+    "item": "wallpapercraftslabs:stripedgray-9",
+    "count": 6
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "group": "wallpapercraft_slabs",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wallpapercraft:woodplankbrown-5"
+    }
+  },
+  "result": {
+    "item": "wallpapercraftslabs:woodplankbrown-5",
+    "count": 6
+  }
+}
