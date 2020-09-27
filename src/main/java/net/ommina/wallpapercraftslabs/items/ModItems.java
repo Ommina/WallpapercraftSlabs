@@ -20,7 +20,7 @@ public class ModItems {
     public static void registerItems( final RegistryEvent.Register<Item> event ) {
 
         ModBlocks.SLABS_BLOCKS.keySet().stream().sorted().forEachOrdered( s ->
-             event.getRegistry().register( new SlabItem( ModBlocks.SLABS_BLOCKS.get( s ), new Item.Properties().group( Wallpapercraft.TAB ) ).setRegistryName( s ) )
+             event.getRegistry().register( new SlabItem( ModBlocks.SLABS_BLOCKS.get( s ), new Item.Properties().group( WallpapercraftSlabs.SLABS_TAB ) ).setRegistryName( s ) )
         );
 
     }
