@@ -17,6 +17,7 @@ import javax.annotation.Nullable;
 
 public class WallpaperSlabBlock extends SlabBlock implements IDecorativeBlock {
 
+    private static final String POSTFIX = "";
     private final String pattern;
     private final String colour;
     private final String suffix;
@@ -31,11 +32,6 @@ public class WallpaperSlabBlock extends SlabBlock implements IDecorativeBlock {
     }
 
     //region Overrides
-    @Override
-    public String getName() {
-        return this.pattern + this.colour + this.suffix;
-    }
-
     @Override
     public String getPattern() {
         return this.pattern;
@@ -93,5 +89,14 @@ public class WallpaperSlabBlock extends SlabBlock implements IDecorativeBlock {
 
     }
 //endregion Overrides
+
+    @Override
+    public String getPostfix() {
+        return POSTFIX;
+    }
+
+    public String getNameForRegistry() {
+        return this.pattern + this.colour + this.suffix;
+    }
 
 }
