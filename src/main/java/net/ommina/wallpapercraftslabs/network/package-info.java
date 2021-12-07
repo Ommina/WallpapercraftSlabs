@@ -3,6 +3,6 @@
 
 package net.ommina.wallpapercraftslabs.network;
 
-import mcp.MethodsReturnNonnullByDefault;
+import net.minecraft.MethodsReturnNonnullByDefault;
 
 import javax.annotation.ParametersAreNonnullByDefault;

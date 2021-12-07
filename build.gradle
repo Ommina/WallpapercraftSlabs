@@ -1,11 +1,10 @@
 buildscript {
     repositories {
-        maven { url = 'https://files.minecraftforge.net/maven' }
-        jcenter()
+        maven { url = 'https://maven.minecraftforge.net' }
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
@@ -17,19 +16,8 @@ version = project.mod_version
 group = 'net.ommina.wallpapercraftslabs' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "${name}-${minecraft_version}"
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
-
-processResources {
-    from(sourceSets.main.resources.srcDirs) {
-        include 'META-INF/mods.toml'
-
-        expand 'mod_version': mod_version, 'forge_version_min': forge_version_min, 'forge_version_max': forge_version_max, 'minecraft_version_min': minecraft_version_min, 'minecraft_version_max': minecraft_version_max
-    }
-
-    from(sourceSets.main.resources.srcDirs) {
-        exclude 'META-INF/mods.toml'
-    }
-}
+java.toolchain.languageVersion = JavaLanguageVersion.of(16)
+println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 
 minecraft {
 
@@ -69,7 +57,36 @@ minecraft {
                 }
             }
         }
+
+        data {
+            workingDirectory project.file('run')
+
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+
+            args '--mod', 'wallpapercraftslabs', '--all', '--output', file('src/generated/resources/')
+
+            mods {
+                wallpapercraft {
+                    source sourceSets.main
+                }
+            }
+        }
     }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+task sourcesJar(type: Jar) {
+    classifier = "sources"
+    from sourceSets.main.allJava
+}
+
+artifacts {
+    archives sourcesJar
 }
 
 repositories {
@@ -82,14 +99,14 @@ repositories {
         // location of a maven mirror for JEI files, as a fallback
         name = "ModMaven"
         url = "https://modmaven.k-4u.nl"
-    } 
+    }
     maven {
         url = 'file:../mcmodsrepo'
     }
 }
 
 dependencies {
-    
+
     minecraft([
             group  : "${project.forge_group}",
             name   : "forge",
@@ -97,12 +114,11 @@ dependencies {
     ])
 
     // compile against the JEI API but do not include it at runtime
-    compileOnly fg.deobf("mezz.jei:jei-1.16.2:7.3.1.23:api")
+    compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}:${jei_version}:api")
     // at runtime, use the full JEI jar
-    runtimeOnly fg.deobf("mezz.jei:jei-1.16.2:7.3.1.23")
+    runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}:${jei_version}")
 
-    compile fg.deobf("net.ommina.wallpapercraft:WallpaperCraft:1.4.5")
-
+    implementation fg.deobf("net.ommina.wallpapercraft:WallpaperCraft:1.5.1")
 
 }
 
@@ -121,6 +137,8 @@ jar {
     }
 }
 
+jar.finalizedBy('reobfJar')
+
 // Example configuration to allow publishing using the maven-publish task
 // we define a custom artifact that is sourced from the reobfJar output task
 // and then declare that to be published
@@ -134,6 +152,9 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             artifact reobfArtifact
+        }
+        mavenJava(MavenPublication) {
+            artifact sourcesJar
         }
     }
     repositories {

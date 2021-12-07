@@ -1,7 +1,7 @@
 @ParametersAreNonnullByDefault
 @MethodsReturnNonnullByDefault
 
-package net.ommina.wallpapercraftslabs.items;
+package net.ommina.wallpapercraftslabs.datagen;
 
 import net.minecraft.MethodsReturnNonnullByDefault;
 
